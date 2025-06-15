@@ -16,7 +16,7 @@ const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse }) =>{
   ];
 
   setChatHistory(newHistory);
-  generateBotResponse(newHistory);
+  generateBotResponse(newHistory, userMessage);
 };
 
     return(
